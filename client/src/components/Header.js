@@ -28,8 +28,7 @@ renderContent() {
             <div className="nav-wapper">
                 <Link 
                     to={this.props.auth ? '/surveys' : '/'} 
-                    className="left brand-logo"
-                >
+                    className="left-margin brand-logo">
                     Emaily
                 </Link>
                 <ul className="right">
