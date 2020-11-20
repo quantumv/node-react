@@ -50,7 +50,7 @@ function validate(values) {
     });
 
     
-    errors.emails = validEmails(values.emails || '');
+    errors.recipients = validEmails(values.recipients || '');
     return errors;
 }
 
